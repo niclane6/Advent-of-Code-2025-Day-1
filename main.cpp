@@ -10,7 +10,6 @@ int wrap(int currentValue, int delta) {
 }
 
 void turn(std::string input, int& dialCurrent) {
-	const int capacity = 99;
 	char direction = input[0];
 	input.erase(0, 1);
 	int delta = std::stoi(input);
